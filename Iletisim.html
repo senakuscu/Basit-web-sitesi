@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>İLETİŞİM</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="myScript.js"></script>
+
+</head>
+<body>
+    <div class="container">
+
+        <ul class="nav nav-pills" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link" href="Hakkimda.html">Hakkimda</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Linkler.html">Linkler</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="Iletisim.html">Iletisim</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="İLETİŞİM" class="container tab-pane active">
+                <br>
+                <div class="container">
+                    <h2>FORM</h2>
+                    
+                    <form action="/action_page" class="needs-validation" id="form">
+
+                        <div class="form-group">
+                            <label for="uisim">Ad:</label>
+                            <input type="text" class="form-control" id="uisim" placeholder="Adınızı Giriniz" name="uisim" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="usoyad">Soyad:</label>
+                            <input type="text" class="form-control" id="usoyad" placeholder="Soyadınızı Giriniz" name="usoyad" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-Mail:</label>
+                            <input type="email" class="form-control" id="email" placeholder="E-mail Giriniz" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="uadres">Adres:</label>
+                            <input type="text" class="form-control" id="uadres" placeholder="Adresinizi Giriniz" name="uadres" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="utel">Telefon:</label>
+                            <input type="tel" class="form-control" id="utel" placeholder="Telefonunuzu Giriniz" name="utel" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="uyaş">Yaşınız:</label>
+                            <input type="text" class="form-control" id="uyaş" placeholder="Yaşınızı Giriniz" name="uyaş" required>
+                        </div>
+
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" name="remember" required> Bilgileri Onaylıyorum
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" id="submit">Onayla</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
